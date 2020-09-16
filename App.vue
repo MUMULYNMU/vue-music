@@ -2,6 +2,7 @@
     <h1>site : {{site}}</h1>
     <h1>url : {{url}}</h1>
     <h1>{{details()}}</h1>
+    <h1>{{details()}}</h1>
 </div>
 <script type="text/javascript">
     var vm = new Vue({
@@ -17,4 +18,5 @@
             }
         }
     })
+    
 </script>
